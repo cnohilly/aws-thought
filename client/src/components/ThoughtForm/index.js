@@ -21,7 +21,7 @@ const ThoughtForm = () => {
     event.preventDefault();
 
     const postData = async () => {
-      const res = await fetch('/api/users', {
+      const res = await fetch('http://18.191.185.164/api/users', {
         method: 'POST',
         headers: {
           Accept: 'application/json',

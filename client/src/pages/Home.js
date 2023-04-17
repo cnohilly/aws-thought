@@ -9,7 +9,12 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('/api/users');
+        const res = await fetch('http://18.191.185.164/api/users', {
+		mode: 'cors',
+		headers: {
+			'Content-Type': 'application/json'
+		}
+	});
         const jsonData = await res.json();
         const _data = jsonData.sort((a, b) =>
           a.createdAt < b.createdAt ? 1 : -1
