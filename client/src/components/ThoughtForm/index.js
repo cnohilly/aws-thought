@@ -46,11 +46,8 @@ const ThoughtForm = () => {
 
     const postImage = async () => {
       try {
-        const res = await fetch('/api/image-upload', {
+        const res = await fetch('http://18.191.185.164/api/image-upload', {
           mode: 'cors',
-          headers: {
-            'Content-Type': 'application/json'
-          },
           method: 'POST',
           body: data
         });
