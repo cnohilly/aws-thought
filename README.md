@@ -4,7 +4,7 @@ This project was to refactor an existing project, Deep Thought, into using Amazo
 
 ## Application
 
-- The launched application can be found at this location: <a href="http://18.191.185.164/" rel="noopener noreferrer" target="_blank">Deep Thoughts - AWS</a>
+- The launched application can be found at this location: [Deep Thoughts - AWS](http://18.191.185.164/)
 
 - A demonstration of the application can be seen below.
 ![GIF demonstrating the project](https://user-images.githubusercontent.com/80245658/232674982-b7926941-716a-4755-bd85-3f9985a9da4d.gif)
